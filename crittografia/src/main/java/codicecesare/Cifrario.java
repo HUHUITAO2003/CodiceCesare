@@ -8,7 +8,7 @@ public class Cifrario {
         int ichiave = 0;
         
         for(int i = 0; i < input.length() ; i++){
-            String lettera = Character.toString(input.charAt(i));
+            String lettera = Character.toString(input.charAt(i));//ricerca della lettera nella stringa
             if(lettera.equals(" ")){
                 output += " ";
             }else{
